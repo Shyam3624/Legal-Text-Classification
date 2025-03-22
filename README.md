@@ -16,39 +16,43 @@ Case Title :The title or heading of the legal case.
 Case Text :The full text of the legal case, including details, arguments, and citations.
 # Key Features of the Dataset 
 • Catchphrases: Summarized phrases or key points extracted from the legal case. 
+
 • Citation Sentences: Sentences within the case text reference other legal cases. 
+
 • Citation Catchphrases: Summarized phrases or key points related to the cited cases. 
+
 • Citation Classes: Indicates the treatment given to the cited cases (e.g., positive, negative, 
 neutral, or other specific legal treatments). 
+
 # Dataset Use Cases 
 This dataset can be used for various natural language processing (NLP) tasks in the legal domain, 
 including but not limited to: 
-# •  Legal Text Classification: 
+ •  Legal Text Classification: 
 Classifying cases based on their outcomes, citation treatments, or 
 legal domains. 
-# • Citation Analysis:
+ • Citation Analysis:
 Understanding how legal cases reference and treat prior cases. 
-# • Catchphrase Extraction:
+• Catchphrase Extraction:
 Automatically identifying key points or summaries from legal texts. 
-# • Legal Research:
+• Legal Research:
 Assisting legal professionals in retrieving relevant cases based on citation 
 # context or outcomes. 
 # Preprocessing Steps 
 To prepare the dataset for modelling, the following preprocessing steps are recommended: 
-# 1. Text Cleaning:
+1. Text Cleaning:
 Remove special characters, stop words, and irrelevant sections (e.g., headers, 
 footers). 
-# 2. Tokenization: 
+2. Tokenization: 
 Split the text into individual words or tokens. 
-# 3. Normalization: 
+3. Normalization: 
 Convert text to lowercase and handle abbreviations or legal-specific terms. 
-# 4. Annotation Handling: 
+4. Annotation Handling: 
 Extract and utilize catchphrases, citation sentences, and citation 
 classes as features. 
-# 5. Class Balancing: 
+5. Class Balancing: 
 Address class imbalance through techniques such as oversampling, under 
 sampling, or data augmentation. 
-# 6. Word Embedding Techniques: 
+6. Word Embedding Techniques: 
 o Use pre-trained embeddings like Word2Vec, GloVe, or FastText to represent words in 
 a dense vector space. 
 o Fine-tune embeddings using domain-specific legal corpora for better representation 
