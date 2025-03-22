@@ -1,5 +1,6 @@
 # Legal-Text-Classification
-Overview 
+#Overview 
+
 The dataset provided for the Legal Citation Text Classification task consists of 25,000 legal 
 cases represented as text documents. Each case is annotated with metadata, including catchphrases, 
 citation sentences, citation catchphrases, and citation classes. The citation classes indicate the type 
